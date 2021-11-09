@@ -1,0 +1,21 @@
+<Project>
+  <PropertyGroup>
+    <Copyright>Copyright © 2020-2021 Aaron Stannard</Copyright>
+    <Authors>Aaronontheweb</Authors>
+    <VersionPrefix>0.1.1</VersionPrefix>
+    <PackageReleaseNotes>Added detailed XML-DOC comments for all of the `BackpressureAlert` extension methods
+Added support for attaching `BackpressureAlert` to `SubFlow&lt;TOut, TMat, TClosed&gt;`</PackageReleaseNotes>
+    <PackageIconUrl>
+    </PackageIconUrl>
+    <PackageProjectUrl>
+    </PackageProjectUrl>
+    <PackageLicenseUrl>
+    </PackageLicenseUrl>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AkkaStreamsKafkaVersion>1.1.4</AkkaStreamsKafkaVersion>
+    <XunitVersion>2.4.1</XunitVersion>
+    <TestSdkVersion>17.0.0</TestSdkVersion>
+  </PropertyGroup>
+</Project>
