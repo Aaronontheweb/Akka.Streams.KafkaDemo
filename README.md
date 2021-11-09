@@ -1,2 +1,2 @@
-# Akka.Streams.Kafka.Reproduction
-Working on reproducing some errors with Akka.Streams.Kafka
+# Akka.Streams.KafkaDemo
+[Akka.Streams.Kafka](https://github.com/akkadotnet/Akka.Streams.Kafka) --> `IAsyncEnumerable` Demo

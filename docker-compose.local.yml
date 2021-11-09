@@ -30,19 +30,3 @@ services:
     extra_hosts:
       - "moby:127.0.0.1"
       - "localhost: 127.0.0.1"
-
-  producer:
-    build:
-      context: ./src/Akka.Streams.KafkaDemo.Producer
-      dockerfile: Dockerfile
-    environment:
-      KAFKA_HOST: "kafka"
-      KAFKA_PORT: "29092"
-
-  consumer:
-    build:
-      context: ./src/Akka.Streams.KafkaDemo.Consumer
-      dockerfile: Dockerfile
-    environment:
-      KAFKA_HOST: "kafka"
-      KAFKA_PORT: "29092"

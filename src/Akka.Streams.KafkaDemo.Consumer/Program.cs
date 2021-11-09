@@ -39,7 +39,7 @@ namespace Akka.Streams.KafkaDemo.Consumer
                 EnableAutoCommit = true,
                 EnableAutoOffsetStore = false,
                 AllowAutoCreateTopics = true,
-                AutoOffsetReset = AutoOffsetReset.Latest,
+                AutoOffsetReset = AutoOffsetReset.Earliest,
                 ClientId = "substream.client",
                 SocketKeepaliveEnable = true,
                 ConnectionsMaxIdleMs = 180000,
