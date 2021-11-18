@@ -14,7 +14,7 @@ Added support for attaching `BackpressureAlert` to `SubFlow&lt;TOut, TMat, TClos
     <NoWarn>$(NoWarn);CS1591</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
-    <AkkaStreamsKafkaVersion>1.1.4</AkkaStreamsKafkaVersion>
+    <AkkaStreamsKafkaVersion>1.2.0</AkkaStreamsKafkaVersion>
     <XunitVersion>2.4.1</XunitVersion>
     <TestSdkVersion>17.0.0</TestSdkVersion>
   </PropertyGroup>
